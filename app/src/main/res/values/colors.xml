@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bgColor">#38312C</color>
+    <color name="sloganColor">#FFFFFF</color>
+    <color name="fontColor">#FF4000</color>
+    <color name="iconColor">#FF4000</color>
+    <color name="orange1">#FFB300</color>
+    <color name="bgcolorl">#044C5F</color>
+    <color name="bgcolors">#0D9DC4</color>
+    <color name="bgcolorrc">#B3E0F5</color>
+    <color name="btn">#455C64</color>
+    <color name="tintgreen">#A91AFF00</color>
+    <color name="tintgreen1">#00FF88</color>
+    <color name="exp">#85726C</color>
+    <color name="transwhite">#4BFFFFFF</color>
+
+    <!--Drawable Resource-->
+    <color name="iconColor1">#DA000000</color>
+    <color name="bgColor2">#362C21</color>
+
+</resources>

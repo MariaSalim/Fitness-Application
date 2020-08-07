@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Happy Fit</string>
+    <string name="slogan">HAPPY FIT HAPPY LIFE</string>
+    <string name="btnnext">JOIN</string>
+    <string name="fulln">FULL NAME</string>
+    <string name="usrname">USERNAME</string>
+    <string name="pwd">PASSCODE</string>
+    <string name="npc">NEW PASSCODE</string>
+    <string name="cma">CREATE MY ACCOUNT</string>
+    <string name="sc">SECURITYCODE</string>
+    <string name="GII">Gyms In Islamabad</string>
+    <string name="btnAcc">ACCEPT</string>
+    <string name="hf">HAPPYFIT</string>
+    <string name="res">RESET</string>
+    <string name="login">SIGN UP</string>
+    <string name="rm">Remember Me</string>
+    <string name="fp">Forgot Passcode?</string>
+    <string name="rc">RESET PASSCODE</string>
+    <string name="rctt">Security code that you entered at the time of Account Creation</string>
+    <string name="pri">Your Privacy Is Important</string>
+    <string name="abtu">About Us</string>
+    <string name="prip1">Thank you for choosing to be part of our community at Happy Fit. We are committed to protecting your personal information and your right to privacy.</string>
+    <string name="prip2">When you use our mobile application, as the case may be and more generally, use any of our, we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have concerning it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.</string>
+    <string name="prip3">This privacy notice applies to all information collected through our Services (which, as described above, includes our App), as well as any related services, sales, marketing or events.</string>
+    <string name="prip4">Please read this privacy notice carefully as it will help you understand what we do with the information that we collect.</string>
+    <string name="prip5">Personal Information Provided by You. We collect names; phone numbers; email addresses; usernames; passwords; contact preferences; contact or authentication data; and other similar information.</string>
+    <string name="prip6">All personal information that you provide to us must be true, complete and accurate, and you must notify us of any changes to such personal information.</string>
+    <string name="prip7">The information is primarily needed to maintain the security and operation of our App, for troubleshooting and our internal analytics and reporting purposes</string>
+    <string name="prip8">Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. </string>
+    <string name="prip9">If you have questions or comments about this notice, you may email us at support@happyfit.com or by post to:</string>
+    <string name="prip10">Happy Fit,</string>
+    <string name="prip11">Pakistan</string>
+    <string name="btnPri">NEXT</string>
+    <string name="sb">Sleep Better</string>
+    <string name="eb">Eat Better</string>
+    <string name="sl">Stay Light</string>
+    <string name="abt">About You</string>
+    <string name="Bday">Birthday</string>
+    <string name="hei">Height</string>
+    <string name="in">in</string>
+    <string name="ft">ft</string>
+    <string name="Wei">Weight</string>
+    <string name="lbs">lbs</string>
+    <string name="kg">kg</string>
+
+    <string-array name="sphei">
+        <item>cm</item>
+        <item>in</item>
+    </string-array>
+
+    <string-array name="spwei">
+        <item>lbs</item>
+        <item>kg</item>
+    </string-array>
+
+    <string name="gndr">GENDER</string>
+    <string name="gndrm">MALE</string>
+    <string name="gndrf">FEMALE</string>
+    <string name="gndrus">UNSPECIFIED</string>
+
+    <string-array name="tips">
+        <item>1. Drink Water, Especially Before Meals</item>
+        <item>2. Eat Eggs For Breakfast</item>
+        <item>3. Drink Coffee (Preferably Black)</item>
+        <item>4. Drink Green Tea</item>
+        <item>5. Try Intermittent Fasting</item>
+        <item>6. Take a Glucomannan Supplement</item>
+        <item>7. Cut Back on Added Sugar</item>
+        <item>8. Eat Less Refined Carbs</item>
+        <item>9. Don\'t Diet — Eat Healthy Instead</item>
+        <item>10. Don\'t Do Sugary Drinks, Including Soda and Fruit Juice</item>
+        <item>11. Beat Your Food Addiction</item>
+        <item>12. Get Good Sleep</item>
+        <item>13. Eat More Vegetables and Fruits</item>
+        <item>14. Eat More Fiber</item>
+        <item>15. Lift Weights</item>
+        <item>16. Chew More Slowly</item>
+        <item>17. Stretch to get stronger</item>
+        <item>18. Avoid crash diets</item>
+        <item>19. Intake of protein increases metababolism</item>
+        <item>20. No junk food , more results</item>
+    </string-array>
+
+    <string name="lo">Contact Us</string>
+    <string name="bmi">YOUR BMI</string>
+
+    <string name="uw">Underweight\n\n&lt;18.5</string>
+    <string name="nw">Normal Weight\n\n18.5 - 25</string>
+    <string name="ow">Overweight\n\n25 - 30</string>
+    <string name="o">Obese\n\n&gt;30</string>
+    <string name="btnexp">EXPLORE</string>
+
+
+    <string name="nav_exp">EXPLORE</string>
+    <string name="nav_act">ACCOUNT</string>
+    <string name="nav_chal">CHALLENGES</string>
+
+    <string name="workout">WORKOUTS</string>
+    <string name="diet">DIET PLAN</string>
+    <string name="tips">HEALTH TIPS</string>
+    <string name="title_activity_gyms_in_islamabad">Map</string>
+</resources>

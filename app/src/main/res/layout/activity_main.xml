@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:id="@+id/rl">
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_toLeftOf="@id/tv1"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icontrans"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:id="@+id/tv1"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tv2"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:fontFamily="monospace"
+        android:layout_below="@id/IV"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/IV"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:fadingEdge="horizontal"
+        android:background="@drawable/btntrans"
+        android:textColor="@android:color/white"
+        android:text="@string/btnnext"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:onClick="OnJoin"
+
+        />
+</RelativeLayout>

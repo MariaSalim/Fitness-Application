@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardAct"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rl">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:itemBackground="@color/bgColor"
+        app:itemTextColor="@color/transwhite"
+        android:id="@+id/navi"
+        app:itemIconTint="@color/iconColor"
+        app:menu="@menu/nav_items"
+
+        />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/navfrag"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl"/>
+    <!-- <ImageView
+         android:layout_width="300dp"
+         android:layout_height="150dp"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="75dp"
+         android:id="@+id/Work"
+         android:src="@drawable/workout"
+
+         />
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/workbtn"
+         android:layout_below="@id/Work"
+         android:layout_centerHorizontal="true"
+         android:text="@string/workout"
+         android:onClick="toWorkout"
+
+         />
+     <ImageView
+         android:layout_width="300dp"
+         android:layout_height="150dp"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="75dp"
+         android:id="@+id/Diet"
+         android:layout_below="@id/Work"
+         android:src="@drawable/diet"
+         />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/dietbtn"
+         android:layout_below="@id/Diet"
+         android:layout_centerHorizontal="true"
+         android:text="@string/diet"
+
+         />
+     <ImageView
+         android:id="@+id/Tip"
+         android:layout_width="300dp"
+         android:layout_height="150dp"
+         android:layout_below="@id/Diet"
+         android:layout_marginTop="75dp"
+         android:layout_centerHorizontal="true"
+        android:src="@drawable/tips"
+
+         />
+     <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/tipsbtn"
+     android:layout_below="@id/Tip"
+     android:layout_centerHorizontal="true"
+     android:text="@string/diet"
+
+     />-->
+</RelativeLayout>

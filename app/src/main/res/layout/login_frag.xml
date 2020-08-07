@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/iconColor"
+        android:backgroundTint="@color/bgcolorl">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icontrans"
+            android:id="@+id/iconIv"
+            />
+        <TextView
+            android:id="@+id/tvhf"
+            android:layout_below="@id/iconIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/hf"
+            android:textColor="@android:color/white"
+            android:textSize="72dp"
+            app:fontFamily="monospace" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:hint="@string/usrname"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/un"
+            android:inputType="textVisiblePassword"
+            android:layout_below="@id/tvhf"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ed1login"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:hint="@string/pwd"
+            android:password="true"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/pwd"
+            android:inputType="phone"
+            android:layout_below="@id/ed1login"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ed2login"
+            android:digits="0123456789"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/llrm"
+            android:layout_below="@id/ed2login"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/rm"
+                android:layout_marginRight="20dp"
+                android:fontFamily="monospace"
+                />
+            <Switch
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sw"
+                android:layout_below="@id/ed2login"
+
+
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/llrm"
+            android:textColor="@android:color/white"
+            android:text="@string/fp"
+            android:id="@+id/fptv"
+            android:clickable="true"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@color/bgcolorl"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ed1login"
+            android:layout_below="@id/tvhf"
+            android:src="@drawable/loginbtn"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnl"
+            />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolorrc"
+    tools:context=".ChangePasscode">
+
+    <TextView
+        android:id="@+id/tvhf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/rc"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        app:fontFamily="cursive" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:hint="@string/usrname"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/un"
+        android:inputType="textVisiblePassword"
+        android:layout_below="@id/tvhf"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ed1login"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:hint="@string/sc"
+        android:tooltipText="@string/rctt"
+        android:password="true"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/sc"
+        android:layout_below="@id/ed1login"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ed2login"
+        android:digits="0123456789"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:hint="@string/npc"
+        android:password="true"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/pwd"
+        android:inputType="phone"
+        android:layout_below="@id/ed2login"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ed3login"
+        android:digits="0123456789"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:background="@drawable/btn"
+        android:layout_height="wrap_content"
+        android:text="@string/res"
+        android:textColor="@android:color/white"
+        android:fontFamily="monospace"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnl"
+        android:onClick="reset"
+        />
+
+
+</RelativeLayout>

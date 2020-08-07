@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".HomeAct">
+
+    <TextView
+        android:id="@+id/tvun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvun"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvbmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:background="@android:color/darker_gray"
+            android:fontFamily="monospace"
+            android:text="@string/bmi"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvbmi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvun"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/tvbmis"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@android:color/holo_orange_light"
+            android:fontFamily="monospace"
+            android:text="@string/uw"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tvbmis1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvun"
+            android:background="@android:color/holo_green_dark"
+            android:fontFamily="monospace"
+            android:text="@string/nw"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tvbmis2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvun"
+            android:background="@android:color/holo_orange_dark"
+            android:fontFamily="monospace"
+            android:text="@string/ow"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/tvbmis3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvun"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="@string/o"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/btn"
+        android:fontFamily="monospace"
+        android:onClick="toDashboard"
+        android:text="@string/btnexp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+</RelativeLayout>

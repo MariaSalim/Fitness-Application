@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgcolors">
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/icontrans" />
+
+        <EditText
+            android:id="@+id/ed3login"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/iconIv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+            android:drawableLeft="@drawable/fn"
+            android:hint="@string/fulln"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+
+        <EditText
+            android:id="@+id/ed1login"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ed3login"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/un"
+            android:hint="@string/usrname"
+            android:inputType="textVisiblePassword"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/ed2login"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ed3login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/ed1login"
+            android:drawableLeft="@drawable/pwd"
+            android:hint="@string/pwd"
+            android:inputType="phone"
+            android:password="true"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/ed4login"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/ed1login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:digits="0123456789"
+            android:drawableLeft="@drawable/sc"
+            android:hint="@string/sc"
+            android:inputType="phone"
+            android:password="true"
+            android:textAlignment="center"
+
+            />
+
+        <Button
+            android:id="@+id/btns"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/btn"
+            android:text="@string/cma"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
